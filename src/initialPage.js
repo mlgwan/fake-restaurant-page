@@ -1,6 +1,8 @@
 function createInitialPage (){
     let content = document.getElementById("content");
 
+    content.innerHTML = "";
+
     let upperContent = document.createElement("div");
     upperContent.id = "upper-content";
     let heading = document.createElement("h1");
