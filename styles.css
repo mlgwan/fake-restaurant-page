@@ -6,7 +6,11 @@
     flex-flow: column wrap;
     justify-content: space-around;
     height: inherit;
+    width: inherit;
     background-size: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
 }
 
 #upper-content {
@@ -27,4 +31,30 @@
 html, body {
     height: 100%;
     width: 100%;
+}
+
+#navbar {
+    display: flex;
+    border : none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-btn {
+    width: 33%;
+    background: #222;
+    color: white;
+    border: none;
+    text-align: center;
+    transition: 0.6s;
+    font-size: 167%;
+    padding: 0.5%;
+    cursor: pointer;
+
+}
+
+.nav-btn:hover{
+    background: rgb(80, 80, 80, 0.4);
 }
