@@ -2,10 +2,11 @@
 #content {
     background-image: url("../src/restaurant-page.png");
     display: flex;
-    height: 785px;
     align-items: center;
     flex-flow: column wrap;
     justify-content: space-around;
+    height: inherit;
+    background-size: 100%;
 }
 
 #upper-content {
@@ -20,4 +21,10 @@
     text-align: center;
     color: white;
     background: #a4a4a461;
+    width: 80%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
 }
