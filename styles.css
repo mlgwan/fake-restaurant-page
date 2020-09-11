@@ -1,13 +1,18 @@
 
 #content {
-    background-image: url("../src/restaurant-page.png");
+    height: inherit;
+    width: inherit;
+}
+
+#home-page {
+    background-image: url("../src/assets/backgrounds/restaurant-page.png");
     display: flex;
     align-items: center;
     flex-flow: column wrap;
     justify-content: space-around;
-    height: inherit;
+    height: 100%;
     width: inherit;
-    background-size: 100%;
+    background-size: cover;
     top: 0;
     left: 0;
     position: fixed;
@@ -31,6 +36,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-family: "Montserrat", sans-serif
 }
 
 #navbar {
@@ -57,4 +63,64 @@ html, body {
 
 .nav-btn:hover{
     background: rgb(80, 80, 80, 0.4);
+}
+
+#menu {
+    height: inherit;
+    width: inherit;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 4% 0;
+    margin: 0;
+    list-style-type: none;
+    background-image: url("../src/assets/backgrounds/menu-page.jpg");
+    background-size: cover;
+    overflow: scroll;
+}
+
+.menu-entry {
+    color:white;
+    padding-bottom: 2%;
+}
+
+.menu-item {
+    display: flex;
+    flex-flow: column wrap;
+    height: 200px;
+    width: 1200px;
+    background: rgba(203, 253, 255, 0.38);
+    margin: 0 auto;
+}
+
+.menu-item-image {
+    width: 200px;
+    background-size: 200px 200px;
+    height: 200px;
+}
+
+.menu-item-name {
+    color: orange;
+    height: 50px;
+    text-align: center;
+    width: 800px;
+    font-size: 227%;
+}
+
+.menu-item-description {
+    color: black;
+    height: 120px;
+    width: 800px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.menu-item-price {
+    height: 200px;
+    width: auto;
+    color: #1a1a1a;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 200%;
 }
