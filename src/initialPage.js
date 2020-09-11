@@ -3,6 +3,9 @@ function createInitialPage (){
 
     content.innerHTML = "";
 
+    let homePage = document.createElement("div");
+    homePage.id = "home-page";
+
     let upperContent = document.createElement("div");
     upperContent.id = "upper-content";
     let heading = document.createElement("h1");
@@ -15,8 +18,10 @@ function createInitialPage (){
     descriptionText.innerText = "Expand your culinary horizons in a welcoming and relaxing environment. Our Michelin-starred chef Dante Jacuzzi will serve you some of the most innovative dishes your eyes have ever gazed upon and will ensure to leave them as satisfied as your appetite. Feast on a conglomerate of carefully selected meals from around the world.";
     lowerContent.appendChild(descriptionText);
 
-    content.appendChild(upperContent);
-    content.appendChild(lowerContent);
+    homePage.appendChild(upperContent);
+    homePage.appendChild(lowerContent);
+
+    content.appendChild(homePage);
 }
 
 export default createInitialPage;

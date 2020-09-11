@@ -1,4 +1,5 @@
 import createInitialPage from "./initialPage";
+import createMenuPage from "./menuPage";
 
 const navBar = document.getElementById("navbar");
 
@@ -19,4 +20,4 @@ navBar.appendChild(menuBtn);
 navBar.appendChild(aboutBtn);
 
 homeBtn.addEventListener("click", createInitialPage);
-
+menuBtn.addEventListener("click", createMenuPage);
