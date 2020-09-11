@@ -1,0 +1,23 @@
+
+#content {
+    background-image: url("../src/restaurant-page.png");
+    display: flex;
+    height: 785px;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+#upper-content {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 0.05em;
+    -webkit-text-stroke-color: black;
+    font-size: 150%;
+}
+
+#lower-content {
+    text-align: center;
+    color: white;
+    background: #a4a4a461;
+}
