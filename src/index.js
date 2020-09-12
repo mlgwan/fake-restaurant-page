@@ -1,5 +1,6 @@
 import createInitialPage from "./initialPage";
 import createMenuPage from "./menuPage";
+import createContactPage from "./contactPage";
 
 const navBar = document.getElementById("navbar");
 
@@ -11,13 +12,16 @@ const menuBtn = document.createElement("div");
 menuBtn.className = "nav-btn";
 menuBtn.textContent = "Menu";
 
-const aboutBtn = document.createElement("div");
-aboutBtn.className = "nav-btn";
-aboutBtn.textContent = "About";
+const contactBtn = document.createElement("div");
+contactBtn.className = "nav-btn";
+contactBtn.textContent = "Contact";
 
 navBar.appendChild(homeBtn);
 navBar.appendChild(menuBtn);
-navBar.appendChild(aboutBtn);
+navBar.appendChild(contactBtn);
 
 homeBtn.addEventListener("click", createInitialPage);
 menuBtn.addEventListener("click", createMenuPage);
+contactBtn.addEventListener("click", createContactPage);
+
+createInitialPage();

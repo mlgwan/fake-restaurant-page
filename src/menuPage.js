@@ -8,45 +8,47 @@ function createMenuPage(){
         },
         {
             image: "../src/assets/food/eggs.jpg",
-            name: "Eggs",
+            name: "Eggs2",
             description: "some delicious eggs",
             price: 12
         },
         {
             image: "../src/assets/food/eggs.jpg",
-            name: "Eggs",
+            name: "Eggs3",
             description: "some delicious eggs",
             price: 12
         },
         {
             image: "../src/assets/food/eggs.jpg",
-            name: "Eggs",
+            name: "Eggs4",
             description: "some delicious eggs",
             price: 12
         },
         {
             image: "../src/assets/food/eggs.jpg",
-            name: "Eggs",
+            name: "Eggs5",
             description: "some delicious eggs",
             price: 12
         },
         {
             image: "../src/assets/food/eggs.jpg",
-            name: "Eggs",
+            name: "Eggs6",
             description: "some delicious eggs",
             price: 12
         },
         {
             image: "../src/assets/food/eggs.jpg",
-            name: "Eggs",
-            description: "some delicious eggs",
-            price: 12
+            name: "Eggs123",
+            description: "some very delicious eggs",
+            price: 123
         }
     ];
 
     const content = document.getElementById("content");
-    const menu = document.createElement("ul");
-    menu.id = "menu";
+    content.innerHTML = "";
+
+    const menuPage = document.createElement("ul");
+    menuPage.id = "menu-page";
 
     menuData.forEach(menuDataItem =>{
         console.log(menuDataItem, 1);
@@ -75,10 +77,10 @@ function createMenuPage(){
 
         menuEntry.appendChild(menuItem);
 
-        menu.appendChild(menuEntry);
+        menuPage.appendChild(menuEntry);
     });
 
-    content.appendChild(menu);
+    content.appendChild(menuPage);
 }
 
 export default createMenuPage;
