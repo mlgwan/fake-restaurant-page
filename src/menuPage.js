@@ -1,7 +1,7 @@
 function createMenuPage(){
 
     let menuData = [{
-            image: "./assets/food/eggs.jpg",
+            image: "/assets/food/eggs.jpg",
             name: "Eggs",
             description: "some delicious eggs",
             price: 12
