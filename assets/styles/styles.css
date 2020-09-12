@@ -5,7 +5,7 @@
 }
 
 #home-page {
-    background-image: url("../src/assets/backgrounds/restaurant-page.png");
+    background-image: url("../backgrounds/restaurant-page.png");
     display: flex;
     align-items: center;
     flex-flow: column wrap;
@@ -74,7 +74,7 @@ html, body {
     padding: 4% 0;
     margin: 0;
     list-style-type: none;
-    background-image: url("../src/assets/backgrounds/menu-page.jpg");
+    background-image: url("../backgrounds/menu-page.jpg");
     background-size: cover;
     overflow: scroll;
     scrollbar-width: none;
@@ -127,7 +127,7 @@ html, body {
 }
 
 #contact-page{
-    background-image: url("../src/assets/backgrounds/contact-page.jpeg");
+    background-image: url("../backgrounds/contact-page.jpg");
     height: inherit;
     width: inherit;
     top: 0;
