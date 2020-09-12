@@ -1,43 +1,43 @@
 function createMenuPage(){
 
     let menuData = [{
-            image: "../src/assets/food/eggs.jpg",
+            image: "../dist/assets/food/eggs.jpg",
             name: "Eggs",
             description: "some delicious eggs",
             price: 12
         },
         {
-            image: "../src/assets/food/eggs.jpg",
+            image: "../dist/assets/food/eggs.jpg",
             name: "Eggs2",
             description: "some delicious eggs",
             price: 12
         },
         {
-            image: "../src/assets/food/eggs.jpg",
+            image: "../dist/assets/food/eggs.jpg",
             name: "Eggs3",
             description: "some delicious eggs",
             price: 12
         },
         {
-            image: "../src/assets/food/eggs.jpg",
+            image: "../dist/assets/food/eggs.jpg",
             name: "Eggs4",
             description: "some delicious eggs",
             price: 12
         },
         {
-            image: "../src/assets/food/eggs.jpg",
+            image: "../dist/assets/food/eggs.jpg",
             name: "Eggs5",
             description: "some delicious eggs",
             price: 12
         },
         {
-            image: "../src/assets/food/eggs.jpg",
+            image: "../dist/assets/food/eggs.jpg",
             name: "Eggs6",
             description: "some delicious eggs",
             price: 12
         },
         {
-            image: "../src/assets/food/eggs.jpg",
+            image: "../dist/assets/food/eggs.jpg",
             name: "Eggs123",
             description: "some very delicious eggs",
             price: 123
@@ -51,7 +51,6 @@ function createMenuPage(){
     menuPage.id = "menu-page";
 
     menuData.forEach(menuDataItem =>{
-        console.log(menuDataItem, 1);
         const menuEntry = document.createElement("li");
         menuEntry.className = "menu-entry";
         const menuItem = document.createElement("div");

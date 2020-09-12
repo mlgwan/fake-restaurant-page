@@ -1,0 +1,169 @@
+
+#content {
+    height: 90%;
+    width: inherit;
+}
+
+#home-page {
+    background-image: url("../backgrounds/restaurant-page.png");
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    height: 100%;
+    width: inherit;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+#upper-content {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 0.05em;
+    -webkit-text-stroke-color: black;
+    font-size: 150%;
+}
+
+#lower-content {
+    text-align: center;
+    color: white;
+    background: #a4a4a461;
+    width: 80%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif
+}
+
+#navbar {
+    display: flex;
+    border : none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-btn {
+    width: 33%;
+    background: #222;
+    color: white;
+    border: none;
+    text-align: center;
+    transition: 0.6s;
+    font-size: 167%;
+    padding: 0.5%;
+    cursor: pointer;
+
+}
+
+.nav-btn:hover{
+    background: rgb(80, 80, 80, 0.4);
+}
+
+#menu-page {
+    height: inherit;
+    width: inherit;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 4% 0;
+    margin: 0;
+    list-style-type: none;
+    background-image: url("../backgrounds/menu-page.jpg");
+    background-size: cover;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.menu-entry {
+    color:white;
+    padding-bottom: 2%;
+}
+
+.menu-item {
+    display: flex;
+    flex-flow: column wrap;
+    height: 200px;
+    width: 1200px;
+    background: rgba(203, 253, 255, 0.38);
+    margin: 0 auto;
+}
+
+.menu-item-image {
+    width: 200px;
+    background-size: 200px 200px;
+    height: 200px;
+}
+
+.menu-item-name {
+    color: orange;
+    height: 50px;
+    text-align: center;
+    width: 800px;
+    font-size: 227%;
+}
+
+.menu-item-description {
+    color: black;
+    height: 120px;
+    width: 800px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.menu-item-price {
+    height: 200px;
+    width: auto;
+    color: #1a1a1a;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+}
+
+#contact-page{
+    background-image: url("../backgrounds/contact-page.jpg");
+    height: inherit;
+    width: inherit;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 4% 0;
+    margin: 0;
+    list-style-type: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-window {
+    display: flex;
+    flex-flow: column wrap;
+    background: #84848482;
+    width: 80%;
+    align-content: center;
+    text-align: center;
+    border: solid #fff;
+}
+
+#contact-heading {
+    margin: 5%;
+    font-size: 400%;
+    color: white;
+    -webkit-text-stroke: black 0.02em;
+    font-weight: bold;
+    text-decoration: underline;   
+}
+
+.contact-entry-heading {
+    font-size: 250%;
+    -webkit-text-stroke: white 0.04em;
+}
+.contact-entry-text {
+    font-size: 200%;
+}
